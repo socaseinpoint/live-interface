@@ -1,0 +1,33 @@
+@import "~styles/_colors";
+
+.root {
+  position: relative;
+}
+
+.input {
+  height: 38px;
+  border: 1px solid $border-color;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 12px;
+  border-radius: 4px;
+}
+
+.input_icon {
+  padding-left: 39px;
+}
+
+.errors {
+  position: absolute;
+  top: 38px;
+  padding-top: 4px;
+  color: $error-color;
+  font-size: 12px;
+}
+
+.icon {
+  position: absolute;
+  top: 11px;
+  left: 13px;
+}
