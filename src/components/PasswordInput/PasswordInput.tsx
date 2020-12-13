@@ -14,7 +14,7 @@ const PasswordInput: FC<InputProps> = (props) => {
         onClick={() => setIsPasswordShown(!isPasswordShown)}
       >
         <img
-          src={PUBLIC_URL + "icons/view.svg"}
+          src={PUBLIC_URL + "/icons/view.svg"}
           className={styles.icon}
           alt="Toggle password"
         />

@@ -27,7 +27,7 @@ const AuthScreen = () => {
                     <Input
                       type="email"
                       {...props}
-                      icon={PUBLIC_URL + "icons/user.svg"}
+                      icon={PUBLIC_URL + "/icons/user.svg"}
                     />
                   )}
                   placeholder="Email"
@@ -39,7 +39,7 @@ const AuthScreen = () => {
                   render={(props) => (
                     <PasswordInput
                       {...props}
-                      icon={PUBLIC_URL + "icons/lock.svg"}
+                      icon={PUBLIC_URL + "/icons/lock.svg"}
                     />
                   )}
                   placeholder="Password"
